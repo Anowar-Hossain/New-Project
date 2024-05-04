@@ -1,0 +1,262 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+  /*nav related styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    box-shadow: 0px 12px 22px 0px rgba(0, 0, 0, 0.05);
+    height: 85px;
+    margin: 0 40px;
+}
+
+.nav-title{
+    width: 205px;
+    height: 77px; 
+    color: #383756;
+}
+
+span {
+font-size: 40px;
+font-weight: 400;
+line-height: 25.41px;
+text-align: left;
+}
+
+nav > ul{
+    display: flex; 
+}
+
+nav li{
+    font-family: HK Grotesk;
+    font-size: 19px;
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact{
+    border: 1px solid #2A2A3D;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+/* header related styles */
+
+.contact-button{
+    width: 130px;
+    height: 40px;
+    top: 300.53px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(42, 42, 61, 1);
+    margin-top: 10px;
+}
+
+.banner{
+    padding: 120px 100px 110px 200px;
+    max-height: 250px;
+    display: flex;
+    align-items: center;
+    background: url("images/Vector.png");   
+}
+.banner .banner-picture {
+    width: 500px;
+    height: 400px;
+    justify-content: center; 
+    margin-right: 30px;
+}
+
+.banner-contant {
+    width: 400px;
+    height: 250px;
+    margin-right: 100px;
+}
+
+
+
+/* section content styles */
+
+.fourth-shadow{
+    padding: 100px;
+}
+
+.flex{
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    margin: 20px 10px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 69px 114px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+
+.section-button{
+   width: 400px;
+   height: 50px;
+   border-radius: 20px;
+   background: rgba(42, 42, 61, 1);
+   color: white;
+}
+
+
+.section-content{
+   padding: 40px;
+   background: rgba(50, 50, 70, 1);
+}
+
+.section-title{
+font-family: SF Pro Display;
+font-size: 20px;
+text-align: center;
+color: white;
+}
+
+.section-description{
+    color: white;
+    font-family: HK Grotesk;
+    font-size: 15px;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.communication{
+    display: flex;
+    margin-left: 200px;
+    padding: 80px;
+    gap: 100px;
+    width: 800px;
+    margin-top: 50px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 10px 0px 10px 0px;
+}
+.book{
+    width: 65%;
+}
+
+.common-class{
+font-family: HK Grotesk;
+color:rgba(42, 42, 61, 1);
+}
+
+.social-links a{
+margin-right: 15px;
+}
+
+.submit-contact input, textarea{
+display: block;
+padding-left: 0%;
+}
+
+.book-button{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.input-field{
+    width: 300px;
+    height: 30px;
+    margin-top: 7px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.textarea-field{
+    height: 80px;
+    border-color: black;
+    border-width: 2px;
+}
+
+.bg-color{
+    background: rgba(42, 42, 61, 1);
+    width: 322px;
+    color: white;
+}
+
+.banner-2{
+    padding-left: 100px;
+    max-height: 250px;
+    display: flex;
+    align-items: center; 
+    margin-top: 300px;
+}
+
+.marketing-picture{
+    width: 900px;   
+}
+
+.book-button{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background: rgba(42, 42, 61, 1);
+    color: white;   
+}
+
+.book-metting p{
+    size: 10px;
+    font-family: HK Grotesk;
+}
+
+/* footer atyles */
+
+.footer-flex{
+    display: flex;
+    height: 450px;
+    margin-top: 200px;
+    background: rgba(42, 42, 61, 1);
+    padding-left: 100px;
+    color: white;
+}
+
+.s-class{
+    width: 50%;
+    color: white;
+    margin-top: 20px;
+}
+.s-class p{
+    font-family: HK Grotesk;
+    font-size: 15px;
+}
+
+.end-flex{
+    display: flex;
+    margin-top: 50px;
+}
+
+.company-details {
+    width: 200px;
+    font-family: HK Grotesk;
+}
+.service-details p{
+    font-family: HK Grotesk;
+   font-size: 15px;
+}
+
+.icon-color{
+    margin-top: 55px;
+}
+
+.icon-color a{
+    background: rgba(255, 255, 255, 1);
+    padding: 7px;
+}
+
